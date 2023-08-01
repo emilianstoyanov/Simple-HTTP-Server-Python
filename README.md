@@ -4,6 +4,11 @@ Run server:
 
 
 2. Run command: 
+
     `
     python -m http.server
     `
+
+    or 
+
+    `python -m http.server <custom port>`

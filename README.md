@@ -28,5 +28,9 @@ Run server:
 - run: `python -m http.server 9999 -b <IPv4 Address>`
 
 
+    `GET  http://<IPv4 Address>:9999/`
+
+    `POST http://<IPv4 Address>:9999/`
+
 
 

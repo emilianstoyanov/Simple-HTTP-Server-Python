@@ -18,19 +18,18 @@
 
 ### 2. Own network
 
+1. Start a `cmd` terminal in the directory.
 
-- run `cmd` terminal
+    - run  `ipconfig`
 
-- run  `ipconfig`
+    - check: Ethernet adapter Ethernet (IPv4 Address)
 
-- check: Ethernet adapter Ethernet (IPv4 Address)
-
-- run: `python -m http.server 9999 -b <IPv4 Address>`
+    - run in `cmd` terminal `python -m http.server 9999 -b <IPv4 Address>`
 
 
-    `GET  http://<IPv4 Address>:9999/`
+        `GET  http://<IPv4 Address>:9999/`
 
-    `POST http://<IPv4 Address>:9999/`
+        `POST http://<IPv4 Address>:9999/`
 
 
 
